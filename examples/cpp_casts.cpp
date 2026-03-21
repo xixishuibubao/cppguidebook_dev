@@ -95,7 +95,7 @@ void func(std::shared_ptr<Derived>)
 
 std::vector<std::shared_ptr<Base>> bs;
 
-int main()
+void example_smart_ptr()
 {
     bs.push_back(std::make_shared<Derived>());
     bs.push_back(std::make_shared<Derived2>());
